@@ -10,22 +10,22 @@ Repository utama untuk website Digitak: company profile dan Content Management S
 - **Portofolio**: Manajemen proyek portofolio (upload gambar, pagination, filter kategori, keyword search).
 - **Testimoni**: Manajemen testimoni klien dengan rating (1-5) dan upload foto.
 - **Pesan Kontak**: Pengiriman pesan kontak publik dan manajemen status pesan oleh admin.
-- **Keamanan**: Helmet HTTP security headers, rate limiting (proteksi brute-force), dan filtering MIME-type upload.
+- **Keamanan**: Helmet HTTP secussrity headers, rate limiting (proteksi brute-force), dan filtering MIME-type upload.
 - **Penanganan Error Terstruktur**: Global error handler middleware dan validasi input Joi.
 - **Pembersihan Berkas Otomatis**: Gambar lama dihapus dari direktori `uploads/` saat gambar diperbarui.
 - **Dokumentasi Interaktif**: Swagger UI di `/api-docs`.
 
 ## Teknologi
 
-| Area | Teknologi |
-|---|---|
-| Runtime | Node.js v18+ (CommonJS) |
-| Backend Framework | Express 5 |
-| Database | MySQL 8.0.x / MariaDB (driver `mysql2` pool) |
-| Autentikasi | JWT (`jsonwebtoken`) + `bcryptjs` |
-| Validasi | Joi |
-| Upload File | Multer |
-| Dokumentasi API | Swagger UI (`swagger-jsdoc` + `swagger-ui-express`) |
+| Area              | Teknologi                                           |
+| ----------------- | --------------------------------------------------- |
+| Runtime           | Node.js v18+ (CommonJS)                             |
+| Backend Framework | Express 5                                           |
+| Database          | MySQL 8.0.x / MariaDB (driver `mysql2` pool)        |
+| Autentikasi       | JWT (`jsonwebtoken`) + `bcryptjs`                   |
+| Validasi          | Joi                                                 |
+| Upload File       | Multer                                              |
+| Dokumentasi API   | Swagger UI (`swagger-jsdoc` + `swagger-ui-express`) |
 
 ## Struktur Proyek
 
@@ -133,12 +133,12 @@ node tests/test_medium_priority_features.js
 
 ## Perintah yang Tersedia
 
-| Perintah | Deskripsi |
-|---|---|
-| `npm run dev` | Menjalankan server development |
-| `npm run migrate` | Migrasi kolom DB & seed admin default |
-| `npm run inspect:db` | Inspeksi struktur database |
-| `npm run test:api` | Menjalankan test suite E2E API |
+| Perintah             | Deskripsi                             |
+| -------------------- | ------------------------------------- |
+| `npm run dev`        | Menjalankan server development        |
+| `npm run migrate`    | Migrasi kolom DB & seed admin default |
+| `npm run inspect:db` | Inspeksi struktur database            |
+| `npm run test:api`   | Menjalankan test suite E2E API        |
 
 ## Status Pengembangan
 
